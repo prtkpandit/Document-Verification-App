@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSJM University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+</head>
+</head>
+    <link rel="stylesheet" href=link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+<body id="top">
+  
+    <header>
+    <!-- NAVIGATION BAR-->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><span class="logo">C</span>SJMU</a>
+        <a href="#callus">ABOUT US</a>
+
+        <!-- <div class="dropdown">
+            <button class="dropbtn">COURSES</button>
+            <div class="dropdown-content">
+              <a href="#"></a>
+              <a href="#">STREAMS</a>
+              <a href="#">ASSESSMENT PATTERN</a>
+              <a href="#">FACULTY</a>
+            </div>
+            <i class="fa fa-angle-down"></i>
+        </div> -->
+
+        <a href="generateqr.html" class="generate-btn">GENERATE QR CODE</a>
+        
+        <!-- <div class="dropdown">
+            <button class="dropbtn">FACILITIES</button>
+            <div class="dropdown-content">
+              <a href="#">ACTIVITIES</a>
+              <a href="#">AMENITIES</a>
+              <a href="#">NCC AND SPORTS</a>
+              <a href="#">HOLISTIC HEALTHCARE</a>
+              <a href="#">TECHNICAL CLUB</a>
+            </div>
+            <i class="fa fa-angle-down"></i>
+        </div> -->
+
+        <!-- <div class="dropdown">
+            <button class="dropbtn">GALLERY</button>
+            <div class="dropdown-content">
+              <a href="#">TECH FEST</a>
+              <a href="#">ANNUAL SPORTS</a>
+              <a href="#">UTOPIA</a>
+              <a href="#">DONATIONS</a>
+            </div>
+            <i class="fa fa-angle-down"></i>
+        </div> -->
+
+        <a href="verify.html" class="main">VERIFY DOCUMENT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="textbox" id="textb">
+      <h1>Enter data for QR generation &emsp;</h1>
+      <form action="">
+      <textarea id="text-data" name="w3review" rows="4" cols="20">
+        </textarea>
+        <br><br>
+        <input type="submit" value="Submit" id="submit-btn" class="submit-button">
+      </form>
+  </div>
+  <br/>
+  <div class=qrresult>
+  <p id="qr-result">This is default QR code:</p>
+  <canvas id="qr-code"></canvas>
+</div>
+      </body> 
+      <script src="script.js"></script> 
+      <script src="csjmu.js"></script>
+      </html>  
